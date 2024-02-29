@@ -1,0 +1,106 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.latest-match-container {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+}
+.latest-match-team-container {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+.latest-match-team-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.latest-match-team-header {
+  font-size: 4vw;
+}
+.latest-match-team-body {
+  font-size: 3vw;
+}
+.competing-team-logo {
+  width: 25vw;
+}
+.latest-match-extra-details-container {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: 2px solid #475569;
+  padding: 20px;
+  width: 100%;
+}
+.latest-match-extra-details-header {
+  font-size: 3.5vw;
+}
+.latest-match-extra-details-body {
+  font-size: 2.5vw;
+}
+
+@media (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #0f172a;
+    border-radius: 20px;
+  }
+  .latest-match-extra-details-container {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-top: 0px;
+    padding: 20px;
+    width: 30%;
+  }
+  .latest-match-team-container {
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 20px;
+    width: 70%;
+  }
+  .competing-team-logo {
+    width: 25vw;
+    margin-left: 20%;
+  }
+  .latest-match-team-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  .latest-match-team-header {
+    font-size: 3vw;
+    margin: 10px 0px;
+  }
+  .latest-match-team-body {
+    font-size: 2vw;
+    margin: 10px 0px;
+  }
+  .latest-match-extra-details-header {
+    font-size: 2vw;
+    margin: 10px 0px;
+  }
+  .latest-match-extra-details-body {
+    font-size: 1.5vw;
+    margin: 10px 0px;
+  }
+}

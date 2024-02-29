@@ -1,0 +1,88 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.match-card-li-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  background-color: #0f172a;
+  border-radius: 20px;
+  color: white;
+  width: 40vw;
+  height: 60vw;
+  margin: 10px;
+  text-align: center;
+}
+.match-card-competing-team-logo-container {
+  height: 20vw;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.match-card-competing-team-logo {
+  width: 15vw;
+}
+.match-card-competing-team-name {
+  font-size: 3.5vw;
+  height: 5vw;
+}
+.match-card-result {
+  font-size: 2.5vw;
+}
+.match-card-status-won {
+  font-size: 3.5vw;
+  color: green;
+}
+.match-card-status-lost {
+  font-size: 3vw;
+  color: red;
+}
+
+@media (min-width: 768px) {
+  .match-card-li-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: #0f172a;
+    border-radius: 20px;
+    color: white;
+    width: 28vw;
+    height: 45vw;
+    margin: 10px;
+    text-align: center;
+  }
+  .match-card-competing-team-logo-container {
+    height: 12vw;
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .match-card-competing-team-logo {
+    width: 10vw;
+  }
+  .match-card-competing-team-name {
+    font-size: 2.5vw;
+    height: 5vw;
+  }
+  .match-card-result {
+    font-size: 1.8vw;
+  }
+  .match-card-status-won {
+    font-size: 2.5vw;
+    color: green;
+  }
+  .match-card-status-lost {
+    font-size: 2.5vw;
+    color: red;
+  }
+}
