@@ -1,4 +1,5 @@
 ## IPL Dashboard App
+live at: https://iplinfocenter.ccbp.tech/
 
 ![IPL Dashboard Output](https://assets.ccbp.in/frontend/content/react-js/ipl-dashboard-output-v2.gif)
 
@@ -23,26 +24,6 @@ The IPL Dashboard app provides users with information about IPL teams, their mat
 ![Team Matches Component Structure](https://assets.ccbp.in/frontend/content/react-js/team-matches-component-structure-img.png)
 
 
-### Colors
-#### Background Colors
-- Hex: #1e293b (Dark Blue)
-- Hex: #a4261d (Red)
-- Hex: #5755a7 (Purple)
-- Hex: #d91c1f (Dark Red)
-- Hex: #f7db00 (Yellow)
-- Hex: #ffffff33 (White with 20% Opacity)
-- Hex: #da237b (Pink)
-- Hex: #13418b (Navy Blue)
-- Hex: #f26d22 (Orange)
-- Hex: #4f5db0 (Indigo)
-- Hex: #0f172a (Dark Slate Blue)
-
-#### Border Colors
-- Hex: #ffffff (White)
-- Hex: #475569 (Gray)
-
-#### Text Colors
-- Hex: #ffffff (White)
 - Hex: #18ed66 (Light Green)
 - Hex: #e31a1a (Red)
 
